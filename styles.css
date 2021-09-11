@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+h1 {
+    font-family: 'Hina Mincho', serif;
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 25px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+}
+
+img {
+    height: 190px;
+    border-radius: 50%;
+    position: relative;
+    left: 235px;
+}
+
+.menu {
+  list-style: none;
+  font-family: Raleway, sans-serif;
+  float: right;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+  color: black;
+}
+
+li:hover {
+  background-color: #35e6f2;
+}
+
+li {
+  display: inline;
+} 
